@@ -6,7 +6,7 @@ b=1
 echo "Fibonacci Series for first $n terms"
 echo $a
 echo $b
-for (( i=2;i<=n;i++ ))
+for (( i=3;i<=n;i++ ))
 do
     c=$(($a+$b))
     echo $c
